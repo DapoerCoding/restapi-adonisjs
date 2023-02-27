@@ -21,6 +21,10 @@
 import Route from '@ioc:Adonis/Core/Route'
 import './routes/healthcheck'
 
-Route.get('/', async () => {
-  return 'Hello world from a slim app'
-})
+// Route.get('/', async () => {
+//   return 'Hello world from a slim app'
+// })
+
+Route.get('/home', async ({ view }) => {
+  return view.render('home')
+});
