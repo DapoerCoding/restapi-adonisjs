@@ -20,6 +20,7 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 import './routes/healthcheck'
+import './routes/tabledemo'
 
 // Route.get('/', async () => {
 //   return 'Hello world from a slim app'
